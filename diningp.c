@@ -33,6 +33,7 @@ void *putfork(int num)
 	
 	printf("Philosopher %d put down the fork %d and %d \n",num+1,left+1,num+1);
 	printf("Philosopher %d is THINKING \n",num+1);
+	
 	test(left);
 	test(right);
 	
